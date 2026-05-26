@@ -19,7 +19,7 @@
 
 ```bash
 git clone <your-repo-url>
-cd Project_1_KIRO
+cd [Project_1_KIRO](https://github.com/JoshithReddyAleti/JoshithReddyAleti-Manufacturing_Cognitive_Command_System_MCCS.git)
 ```
 
 ---
