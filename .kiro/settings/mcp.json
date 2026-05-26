@@ -1,0 +1,40 @@
+{
+  "mcpServers": {
+    "mcp-weather": {
+      "command": "python",
+      "args": ["-m", "mccs.mcp_servers.weather"],
+      "disabled": false,
+      "autoApprove": ["get_current_weather", "get_weather_alerts", "get_7day_forecast"]
+    },
+    "mcp-trade": {
+      "command": "python",
+      "args": ["-m", "mccs.mcp_servers.trade"],
+      "disabled": false,
+      "autoApprove": ["get_tariff_rate", "get_trade_restrictions", "get_tariff_changes"]
+    },
+    "mcp-geopolitics": {
+      "command": "python",
+      "args": ["-m", "mccs.mcp_servers.geopolitics"],
+      "disabled": false,
+      "autoApprove": ["get_event_spikes", "get_conflict_intensity", "get_global_risk_summary"]
+    },
+    "mcp-economics": {
+      "command": "python",
+      "args": ["-m", "mccs.mcp_servers.economics"],
+      "disabled": false,
+      "autoApprove": ["get_industrial_production_index", "get_manufacturing_orders", "get_gdp_growth"]
+    },
+    "mcp-logistics": {
+      "command": "python",
+      "args": ["-m", "mccs.mcp_servers.logistics"],
+      "disabled": false,
+      "autoApprove": ["get_port_congestion", "get_freight_delay_stats", "get_chokepoint_status"]
+    },
+    "mcp-labor": {
+      "command": "python",
+      "args": ["-m", "mccs.mcp_servers.labor"],
+      "disabled": false,
+      "autoApprove": ["get_unemployment_rate", "get_labor_disruptions", "get_labor_risk_summary"]
+    }
+  }
+}
